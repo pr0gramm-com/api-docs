@@ -133,5 +133,11 @@ response = oauth.get('https://pr0gramm.com/api/user/name').json()
 print(f'Hallo {response["name"]}')
 ```
 
+### Laravel (PHP)
+
+[`Pr0gramm Socialite Provider`](https://github.com/SocialiteProviders/Providers/tree/master/src/Pr0gramm) (Requires [`Laravel Socialite`](https://laravel.com/docs/9.x/socialite))
+
+Read the official documentation on the website ([`Socialite Providers`](https://socialiteproviders.com/Pr0gramm/)) for installation instructions.
+
 ### Your Example
 Are you using a different library? We're open for contributions and love to get more samples!
