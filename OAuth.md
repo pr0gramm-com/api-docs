@@ -18,7 +18,7 @@ Everything that relates to Kellerbay needs to be replaced by your application.
 ## You'll need
 | Name                | Description                                                     | Where to get                                      | Secret? | Format        | Remarks |
 | ------------------- | --------------------------------------------------------------- | ------------------------------------------------- | ------- | ------------- | ------- |
-| `client_id`         | ID of your client/application                                   | [@Gamb](https://pr0gramm.com/inbox/messages/Gamb) | No      | `^\d+$`       |         |
+| `client_id`         | ID of your client/application                                   | [/contact](https://pr0gramm.com/contact) | No      | `^\d+$`       |         |
 | `client_secret`     | Secret needed for access token creation                         | Comes along with `client_id`                      | Yes!    | `^[0-9a-f]+$` |         |
 | `access_token_uri`  | `https://pr0gramm.com/api/oauth/createAccessToken`              | <--                                               | No      | URL           |         |
 | `authorization_uri` | `https://pr0gramm.com/oauth/authorize`                          | <--                                               | No      | URL           |         |
