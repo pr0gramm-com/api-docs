@@ -13,6 +13,8 @@ Everything that relates to Kellerbay needs to be replaced by your application.
 		- [Node.js](#nodejs)
 			- [`simple-oauth2`](#simple-oauth2)
 		- [Python](#python)
+		- [Laravel (PHP)](laravel-php)
+		- [Passport.js (Node)](passportjs-node)
 		- [Your Example](#your-example)
 
 ## You'll need
@@ -138,6 +140,9 @@ print(f'Hallo {response["name"]}')
 [`Pr0gramm Socialite Provider`](https://github.com/SocialiteProviders/Providers/tree/master/src/Pr0gramm) (Requires [`Laravel Socialite`](https://laravel.com/docs/9.x/socialite))
 
 Read the official documentation on the website ([`Socialite Providers`](https://socialiteproviders.com/Pr0gramm/)) for installation instructions.
+
+## Passport.js (Node)
+[passport-pr0gramm](https://github.com/holzmaster/passport-pr0gramm), an auth strategy for [Passport.js](https://www.passportjs.org/). Can be used with Express, Fastify, Restify and all other frameworks that support Passport.js.
 
 ### Your Example
 Are you using a different library? We're open for contributions and love to get more samples!
