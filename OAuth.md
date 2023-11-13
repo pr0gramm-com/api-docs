@@ -13,8 +13,8 @@ Everything that relates to Kellerbay needs to be replaced by your application.
 		- [Node.js](#nodejs)
 			- [`simple-oauth2`](#simple-oauth2)
 		- [Python](#python)
-		- [Laravel (PHP)](laravel-php)
-		- [Passport.js (Node)](passportjs-node)
+		- [Laravel (PHP)](#laravel-php)
+		- [Passport.js (Node)](#passportjs-node)
 		- [Your Example](#your-example)
 
 ## You'll need
