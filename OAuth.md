@@ -20,7 +20,7 @@ Everything that relates to Kellerbay needs to be replaced by your application.
 ## You'll need
 | Name                | Description                                                     | Where to get                                      | Secret? | Format        | Remarks |
 | ------------------- | --------------------------------------------------------------- | ------------------------------------------------- | ------- | ------------- | ------- |
-| `client_id`         | ID of your client/application                                   | [/contact](https://pr0gramm.com/contact) | No      | `^\d+$`       |         |
+| `client_id`         | ID of your client/application                                   | [/contact](https://pr0gramm.com/contact) **see note below** | No      | `^\d+$`       |         |
 | `client_secret`     | Secret needed for access token creation                         | Comes along with `client_id`                      | Yes!    | `^[0-9a-f]+$` |         |
 | `access_token_uri`  | `https://pr0gramm.com/api/oauth/createAccessToken`              | <--                                               | No      | URL           |         |
 | `authorization_uri` | `https://pr0gramm.com/oauth/authorize`                          | <--                                               | No      | URL           |         |
@@ -29,6 +29,17 @@ Everything that relates to Kellerbay needs to be replaced by your application.
 
 
 You'll also need to generate a random `state` and check whether it is the same after getting the user back from pr0gramm. [This is important](https://stackoverflow.com/questions/26132066).
+
+
+> [!IMPORTANT]
+> When requesting a client ID and a client secret, include this information in your initial request:
+> - **Display Name** - What the user will see as Application name
+> - **Public Description** - What the user should see on their app list
+> - **URL** - A URL to the service - e.g. `https://kellerbay.com`
+> - **Logo URL** - A URL to a logo, which is >= 64x64px
+> - **Callback URL prefix** - The prefix to the allowed callback URLs. For example, `https://kellerbay.com/auth`. https is **required**. **localhost** is always allowed.
+>
+> If one of these is missing, we cannot proceed.
 
 ### Scopes
 There are many scopes. Every API endpoint is represented by a scope. For example `/api/a/b` has the scope `a.b`. The most important scopes are listed here:
