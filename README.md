@@ -11,3 +11,7 @@ You can use this to provide a "Log in with pr0gramm" experience for your applica
 ### Links
 - [Examples and further docs on using OAuth with pr0gramm](OAuth.md)
 - [More information on OAuth](https://en.wikipedia.org/wiki/OAuth)
+
+## OpenAPI
+The latest OpenAPI spec can be found here:
+https://pr0gramm.com/api/spec/latest
