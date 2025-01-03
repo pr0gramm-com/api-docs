@@ -1,4 +1,4 @@
-# ![pr0gramm-Icon](https://pr0gramm.com/media/pr0gramm-icon.svg) pr0gramm API Docs [![Discord](https://img.shields.io/discord/966447170930757642?color=5865F2&label=Dev-Server&logo=discord&logoColor=white)](https://discord.gg/uAAnNmHRuJ)
+# ![pr0gramm-Icon](https://pr0gramm.com/media/pr0gramm-notext.svg) pr0gramm API Docs [![Discord](https://img.shields.io/discord/966447170930757642?color=5865F2&label=Dev-Server&logo=discord&logoColor=white)](https://discord.gg/uAAnNmHRuJ)
 
 ## API State
 At the current state, pr0gramm's API is considered **unstable** and is **not versioned**.
